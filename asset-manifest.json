@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HAIYA/static/css/main.e6c13ad2.css",
+    "main.js": "/HAIYA/static/js/main.311f2cd4.js",
+    "static/js/453.c5ade01e.chunk.js": "/HAIYA/static/js/453.c5ade01e.chunk.js",
+    "index.html": "/HAIYA/index.html",
+    "main.e6c13ad2.css.map": "/HAIYA/static/css/main.e6c13ad2.css.map",
+    "main.311f2cd4.js.map": "/HAIYA/static/js/main.311f2cd4.js.map",
+    "453.c5ade01e.chunk.js.map": "/HAIYA/static/js/453.c5ade01e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.311f2cd4.js"
+  ]
+}
