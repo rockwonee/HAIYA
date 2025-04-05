@@ -12,13 +12,22 @@ import Contact from './pages/Contact';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#2196f3',
+      main: 'rgb(26, 27, 28)', 
+      light: '#9575cd',
+      dark: '#512da8',
     },
     secondary: {
-      main: '#f50057',
+      main: 'rgb(16, 17, 17)', 
+      light: '#4dd0e1',
+      dark: '#0097a7',
     },
     background: {
-      default: '#ffffff',
+      default: 'rgb(26, 27, 28)',
+      paper: 'rgb(16, 17, 17)',
+    },
+    text: {
+      primary: 'rgb(237, 232, 140)',
+      secondary: 'rgb(237, 232, 140)',
     },
   },
   typography: {
@@ -28,6 +37,24 @@ const theme = createTheme({
     },
     h2: {
       fontWeight: 600,
+    },
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          borderRadius: 8,
+          textTransform: 'none',
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: 12,
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        },
+      },
     },
   },
 });
