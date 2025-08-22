@@ -12,12 +12,12 @@ import Contact from './pages/Contact';
 const theme = createTheme({
   palette: {
     primary: {
-      main: 'rgb(26, 27, 28)', 
+      main: 'rgb(26, 27, 28)',
       light: '#9575cd',
       dark: '#512da8',
     },
     secondary: {
-      main: 'rgb(16, 17, 17)', 
+      main: 'rgb(16, 17, 17)',
       light: '#4dd0e1',
       dark: '#0097a7',
     },
