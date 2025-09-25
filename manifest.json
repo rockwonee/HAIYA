@@ -2,21 +2,8 @@
   "short_name": "HAIYA",
   "name": "HAIYA OFFICIAL",
   "icons": [
-    {
-      "src": "HAIYA_LOGO.ICO",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "HAIYA_LOGO.ICO",
-      "type": "image/ico",
-      "sizes": "192x192"
-    },
-    {
-      "src": "HAIYA_LOGO.ICO",
-      "type": "image/ico",
-      "sizes": "512x512"
-    }
+    { "src": "logo192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "logo512.png", "sizes": "512x512", "type": "image/png" }
   ],
   "start_url": ".",
   "display": "standalone",
