@@ -3,18 +3,18 @@
   "name": "HAIYA OFFICIAL",
   "icons": [
     {
-      "src": "HAIYA_LOGO_1.JPG",
+      "src": "HAIYA_LOGO.ICO",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "HAIYA_LOGO_1.JPG",
-      "type": "image/png",
+      "src": "HAIYA_LOGO.ICO",
+      "type": "image/ico",
       "sizes": "192x192"
     },
     {
-      "src": "HAIYA_LOGO_1.JPG",
-      "type": "image/png",
+      "src": "HAIYA_LOGO.ICO",
+      "type": "image/ico",
       "sizes": "512x512"
     }
   ],
