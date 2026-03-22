@@ -23,8 +23,7 @@ const Navbar = () => {
 
   const menuItems = [
     { text: 'Home', path: '/' },
-    { text: 'Software', path: '/software' },
-    { text: 'Philosophy', path: '/philosophy' },
+    { text: 'Hardware', path: '/Hardware' },
     { text: 'Contact', path: '/contact' },
   ];
 

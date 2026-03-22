@@ -30,7 +30,7 @@ const Philosophy = () => {
   const values = [
     {
       title: 'Human-Centric Innovation',
-      description: "Software designed to improve mental health, relationships, and workplace harmony through empathetic AI technology.",
+      description: "Hardware designed to improve mental health, relationships, and workplace harmony through empathetic AI technology.",
       icon: <Lightbulb sx={{ fontSize: 50, color: '#FFD700' }} />,
       color: '#FFD700',
     },
@@ -530,7 +530,7 @@ const Philosophy = () => {
                   </Button>
                   <Button
                     component={RouterLink}
-                    to="/software"
+                    to="/Hardware"
                     sx={{
                       color: '#ccc',
                       textTransform: 'none',
@@ -539,7 +539,7 @@ const Philosophy = () => {
                       '&:hover': { color: '#FFD700' }
                     }}
                   >
-                    Software
+                    Hardware
                   </Button>
                   <Button
                     component={RouterLink}
@@ -614,7 +614,7 @@ const Philosophy = () => {
               textAlign: 'center'
             }}>
               <Typography variant="body2" sx={{ color: '#999' }}>
-                © 2025 HAIYA LLC. All rights reserved. | Pioneering emotional AI technology
+                © 2026 HAIYA LLC. All rights reserved. | Pioneering emotional AI technology
               </Typography>
             </Box>
           </Container>

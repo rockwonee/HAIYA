@@ -49,9 +49,7 @@ const Privacy = () => {
               About HAIYA
             </Typography>
             <Typography paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff' }}>
-              HAIYA ("we," "our," or "us") is a research-focused AI technology company founded in Tokyo, Japan in 2025. 
-              We are currently in the research and development phase, focusing on developing emotional-based AI technology 
-              that can resonate with human consciousness.
+              HAIYA ("we," "our," or "us") is a quantum cooling technology company founded in Tokyo, Japan in 2025. 
             </Typography>
           </Box>
 

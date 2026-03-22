@@ -4,7 +4,7 @@ import { ThemeProvider, createTheme } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Software from './pages/Software';
+import Hardware from './pages/Hardware';
 import Philosophy from './pages/Philosophy';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
@@ -70,7 +70,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/software" element={<Software />} />
+          <Route path="/Hardware" element={<Hardware />} />
           <Route path="/philosophy" element={<Philosophy />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/privacy" element={<Privacy />} />

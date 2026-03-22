@@ -231,20 +231,34 @@ const Home = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.8 }}
                 >
-                  <Typography variant="h2" component="h1" gutterBottom className="gold-gradient-text" sx={{
-                    fontWeight: 'bold',
-                    fontSize: '4rem',
-                    letterSpacing: '0.1em'
-                  }}>
-                    HAIYA
-                  </Typography>
-                  <Typography variant="h5" paragraph className="gold-glow-text" sx={{
-                    fontSize: '1.6rem',
-                    fontWeight: '500',
-                    letterSpacing: '0.05em'
-                  }}>
-                    Pioneering the future of AI technology
-                  </Typography>
+                  <Box sx={{ display: 'flex', alignItems: 'flex-start', gap: 3 }}>
+                    <Box
+                      component="img"
+                      src="/favicon-512.png"
+                      alt="HAIYA Logo"
+                      sx={{
+                        width: 140,
+                        height: 140,
+                        objectFit: 'cover',
+                      }}
+                    />
+                    <Box>
+                      <Typography variant="h2" component="h1" gutterBottom className="gold-gradient-text" sx={{
+                        fontWeight: 'bold',
+                        fontSize: '4rem',
+                        letterSpacing: '0.1em'
+                      }}>
+                        HAIYA
+                      </Typography>
+                      <Typography variant="h5" paragraph className="gold-glow-text" sx={{
+                        fontSize: '1.6rem',
+                        fontWeight: '500',
+                        letterSpacing: '0.05em'
+                      }}>
+                        Next-generation Thermoelectric Cooling Device Innovation
+                      </Typography>
+                    </Box>
+                  </Box>
                 </MotionBox>
               </Grid>
             </Grid>
@@ -321,7 +335,7 @@ const Home = () => {
                 >
                   HAIYA was founded in Shibuya, Tokyo, Japan in 2025 by Taiyo Yumoto and Etsu Hayashi.
                   We are a Japanese startup company working to solve the heat problems of hardware products
-                  which are becoming more serious as the AI market expands.
+                  which are becoming more serious as the deep tech market expands.
                 </Typography>
               </Box>
 
@@ -354,9 +368,8 @@ const Home = () => {
                   color: '#000',
                   fontWeight: '700'
                 }}>
-                  Working to solve the cooling issues of CPU QPUs, which are becoming
-                  more serious behind the expansion of the AI and quantum markets, and
-                  building a sustainable infrastructure.
+                  Working to solve the data centre electricity cooling issues that have grown rampant in recent years with
+                  the boom of cloud servers. 
                 </Typography>
                 <Typography variant="h3" gutterBottom sx={{
                   fontSize: '2.5rem',
@@ -374,57 +387,10 @@ const Home = () => {
                   color: '#000',
                   fontWeight: '700'
                 }}>
-                  Utilizing cutting-edge plasma cooling technology to expand the
-                  practical application of local AI hardware products.
+                  We aim to become a global leader in infrastructure through advanced spintronics plasma cooling technology
+                  with new quantum materials.
                 </Typography>
-                <Typography paragraph sx={{
-                  fontSize: '1.4rem',
-                  lineHeight: 1.8,
-                  mb: 3,
-                  color: '#000',
-                  fontWeight: '700'
-                }}>
-                  Aiming to manufacture and sell personal quantum computers in the future.
-                </Typography>
-
-                {/* Link to Philosophy Page */}
-                <Box sx={{ mt: 4, display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
-                  <Button
-                    component={RouterLink}
-                    to="/philosophy"
-                    variant="outlined"
-                    sx={{
-                      borderColor: '#000',
-                      color: '#000',
-                      fontWeight: '700',
-                      fontSize: '1.1rem',
-                      padding: '12px 24px',
-                      borderRadius: '8px',
-                      textTransform: 'none',
-                      '&:hover': {
-                        borderColor: '#FFD700',
-                        backgroundColor: 'rgba(255, 215, 0, 0.1)',
-                        color: '#FFD700',
-                      },
-                      transition: 'all 0.3s ease',
-                    }}
-                    endIcon={
-                      <Box
-                        component="span"
-                        sx={{
-                          fontSize: '1.2rem',
-                          fontWeight: 'bold',
-                          transform: 'translateX(0)',
-                          transition: 'transform 0.3s ease',
-                        }}
-                      >
-                        →
-                      </Box>
-                    }
-                  >
-                    Learn More About Our Philosophy
-                  </Button>
-                </Box>
+                
               </Box>
             </Box>
           </Box>
@@ -514,23 +480,12 @@ const Home = () => {
                   fontSize: '1.1rem',
                   lineHeight: 1.6
                 }}>
-                  The pyramid illustrates how HAIYA's technology extends to various layers of AI
-                  society and infrastructure.
-                  <p>
-                  Expansion of cooling infrastructure in the supply and demand of autonomous distributed PCs.
-                  </p>
-                  <p>
-                  Infrastructure layer - Improved operation and productivity of next-generation QPU CPUs with
-                  silent plasma cooling.
-                  </p>
-                  <p>
-                  Global layer - Stabilizing cloud and local environments in the golden age of AI.
-                  </p>
+                  Vertical integration of the semiconductor, quantum, nuclear fusion power plant, and aerospace cooling infrastructure markets.
                 </Typography>
                 <Box sx={{ mt: 4, display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
                   <Button
                     component={RouterLink}
-                    to="/software"
+                    to="/Hardware"
                     variant="outlined"
                     className="gold-body-text"
                     sx={{
@@ -563,7 +518,7 @@ const Home = () => {
                       </Box>
                     }
                   >
-                    Learn More About Our Software
+                    Learn More About Our Hardware
                   </Button>
                 </Box>
               </Box>
@@ -587,7 +542,7 @@ const Home = () => {
                   HAIYA
                 </Typography>
                 <Typography variant="body2" sx={{ color: '#ccc', mb: 2 }}>
-                  Pioneering the future of AI technology through emotional resonance and quantum consciousness.
+                  Pioneering the future of quantum cooling technology.
                 </Typography>
                 <Typography variant="body2" sx={{ color: '#ccc' }}>
                   Founded in Tokyo, Japan 2025
@@ -628,7 +583,7 @@ const Home = () => {
                   </Button>
                   <Button
                     component={RouterLink}
-                    to="/software"
+                    to="/Hardware"
                     sx={{
                       color: '#ccc',
                       textTransform: 'none',
@@ -637,7 +592,7 @@ const Home = () => {
                       '&:hover': { color: '#FFD700' }
                     }}
                   >
-                    Software
+                    Hardware
                   </Button>
                   <Button
                     component={RouterLink}
@@ -712,7 +667,7 @@ const Home = () => {
               textAlign: 'center'
             }}>
               <Typography variant="body2" sx={{ color: '#999' }}>
-                © 2025 HAIYA LLC. All rights reserved. | Pioneering emotional AI technology
+                © 2026 HAIYA LLC. All rights reserved. | Pioneering quantum cooling technology
               </Typography>
             </Box>
           </Container>

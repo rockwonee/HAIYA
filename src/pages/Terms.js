@@ -61,9 +61,7 @@ const Terms = () => {
               About HAIYA
             </Typography>
             <Typography paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff' }}>
-              HAIYA is a research-focused AI technology company founded in Tokyo, Japan in 2025. We are currently 
-              in the research and development phase, focusing on developing emotional-based AI technology that can 
-              resonate with human consciousness. Our company is funded and operates as a research entity.
+              HAIYA is a quantum cooling technology company founded in Tokyo, Japan in 2025.
             </Typography>
           </Box>
 
@@ -128,7 +126,7 @@ const Terms = () => {
             </Typography>
             <Typography paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff' }}>
               The content on our website, including but not limited to text, graphics, logos, images, 
-              and software, is the property of HAIYA and is protected by copyright, trademark, and other 
+              and Hardware, is the property of HAIYA and is protected by copyright, trademark, and other 
               intellectual property laws.
             </Typography>
             <Typography paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff' }}>
@@ -156,7 +154,7 @@ const Terms = () => {
               Research and Development
             </Typography>
             <Typography paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff' }}>
-              HAIYA is actively engaged in AI research and development. Please note:
+              HAIYA is actively engaged in quantum cooling research and development. Please note:
             </Typography>
             <Box component="ul" sx={{ pl: 4, mb: 3 }}>
               <Typography component="li" sx={{ fontSize: '1.1rem', lineHeight: 1.7, color: '#fff', mb: 1 }}>

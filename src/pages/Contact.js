@@ -68,7 +68,7 @@ const Contact = () => {
     {
       icon: <LocationOnIcon sx={{ fontSize: 40 }} />,
       title: 'Address',
-      content: 'MIEUX Shibuya Building, 8th floor, 5-3 Maruyamacho, Shibuya-ku, Tokyo 〒 150-0044'
+      content: 'Baseline Community, 3rd Floor, 61 Thomas St., Dublin D08 W250, Ireland.'
     },
   ];
 
@@ -76,15 +76,13 @@ const Contact = () => {
     {
       name: 'Yumoto Taiyo',
       role: 'CEO, Founder & Hardware Engineer',
-      blurb: 'Former Air Self-Defense Force member. Lived abroad in Ireland and visited over 20 countries, now leads the local AI hardware development and mechanical design. Expertise in technology and quality management. Aims to fuse strict Japanese quality standards with global perspectives. Passionate about making a global company with ties in Ireland and the Netherlands.',
-      location: 'Tokyo, Japan',
+      location: 'Dublin, Ireland',
       image: '/TaiyoHeadshot.png',
     },
     {
       name: 'Hayashi Etsu',
       role: 'Co-Founder & Business Strategist for HAIYA',
-      blurb: 'A former classmate of Yumoto from the Defense Forces. Graduated from Aoyama Gakuin University and studied international economics at Fudan University in Shanghai. Oversees the strategy, management and finance for HAIYA. Experienced in business development in China and plays a key role in connecting with the Asian market.',
-      location: 'Shanghai, China',
+      location: 'Tokyo, Japan',
       image: '/EtsuHeadshot.png',
     }
   ]
@@ -114,23 +112,7 @@ const Contact = () => {
             mx: 'auto' 
           }}
         >
-          Get in touch with our team to learn more about our AI solutions
-        </Typography>
-        <Typography
-          width="80%"
-          variant="h6"
-          align="justify"
-          className="gold-body-text"
-          sx={{
-            fontSize: '1.4rem',
-            lineHeight: 1.6,
-            mb: 8,
-            mx: 'auto',
-          }}
-        >
-          We are always looking for new opportunities to collaborate with other companies and individuals.
-          If you are interested in working with us, please contact us at the details below. We aim to reply
-          to all inquiries within 1-2 business days.
+          Get in touch with our team to learn more about our quantum cooling solutions
         </Typography>
 
           {/* Meet the Team */}
@@ -268,9 +250,6 @@ const Contact = () => {
                          {info.content}
                        </Typography>
                      )}
-                     <Typography variant="body2" color="text.secondary" sx={{ fontSize: '0.9rem' }}>
-                      Contact Number: +81 029-886-6259
-                     </Typography>
                    </Box>
                  </Paper>
               </MotionBox>
