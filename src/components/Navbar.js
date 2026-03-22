@@ -24,7 +24,6 @@ const Navbar = () => {
   const menuItems = [
     { text: 'Home', path: '/' },
     { text: 'Software', path: '/software' },
-    { text: 'Hardware', path: '/hardware' },
     { text: 'Philosophy', path: '/philosophy' },
     { text: 'Contact', path: '/contact' },
   ];
@@ -55,6 +54,7 @@ const Navbar = () => {
         <Toolbar>
           <Typography
             variant="h6"
+            className="gold-glow-text"
             component={RouterLink}
             to="/"
             sx={{
@@ -79,6 +79,7 @@ const Navbar = () => {
             <Box>
               {menuItems.map((item) => (
                 <Button
+                  className="gold-glow-text"
                   color="inherit"
                   component={RouterLink}
                   to={item.path}

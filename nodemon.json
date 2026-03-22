@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": "js,jsx,ts,tsx,json,css,scss",
+  "ignore": ["node_modules", "build", "public"],
+  "exec": "cross-env BROWSER=none react-scripts start",
+  "env": {
+    "NODE_ENV": "development"
+  }
+} 

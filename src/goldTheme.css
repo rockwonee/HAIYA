@@ -1,0 +1,147 @@
+/* Gold Theme Styles */
+.gold-gradient-text {
+  background: linear-gradient(45deg, #FFD700, #ffc31f, #ffac30);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
+
+.gold-body-text {
+  color: rgba(255, 238, 191, 0.9);
+}
+
+/* Scroll-triggered animations */
+.slide-in-left {
+  transform: translateX(-100vw);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-left.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-in-right {
+  transform: translateX(100vw);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.slide-in-right.visible {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.fade-in-up {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.fade-in-up.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.gold-glow-text {
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.gold-border-glow {
+  border: 2px solid #FFD700;
+  box-shadow: 
+    0 0 10px #FFD700,
+    inset 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.gold-button {
+  background: linear-gradient(45deg, #FFD700, #FFA500);
+  border: none;
+  color: #000;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 
+    0 4px 15px rgba(255, 215, 0, 0.4),
+    0 0 20px rgba(255, 215, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.gold-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 6px 20px rgba(255, 215, 0, 0.6),
+    0 0 30px rgba(255, 215, 0, 0.4);
+}
+
+.gold-card {
+  background: linear-gradient(135deg, 
+    rgba(255, 215, 0, 0.1), 
+    rgba(255, 165, 0, 0.05),
+    rgba(255, 140, 0, 0.1));
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.2),
+    0 0 20px rgba(255, 215, 0, 0.1);
+}
+
+.gold-card:hover {
+  border-color: rgba(255, 215, 0, 0.6);
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.3),
+    0 0 30px rgba(255, 215, 0, 0.2);
+}
+
+/* Static gold effects */
+.gold-float {
+  /* Static styling - no animation */
+}
+
+/* Enhanced gold colors */
+.gold-primary { color: #FFD700; }
+.gold-secondary { color: #FFA500; }
+.gold-accent { color: #FF8C00; }
+.gold-light { color: #FFF8DC; }
+.gold-dark { color: #B8860B; }
+
+/* Gold backgrounds with transparency */
+.gold-bg-light { background-color: rgba(255, 215, 0, 0.1); }
+.gold-bg-medium { background-color: rgba(255, 215, 0, 0.2); }
+.gold-bg-strong { background-color: rgba(255, 215, 0, 0.3); }
+
+/* Additional gold effects */
+.gold-text-primary { color: #FFD700; }
+.gold-text-secondary { color: #FFA500; }
+.gold-text-accent { color: #FF8C00; }
+
+.gold-border {
+  border: 2px solid #FFD700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.gold-highlight {
+  background: linear-gradient(90deg, 
+    transparent, 
+    rgba(255, 215, 0, 0.1), 
+    transparent);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.gold-underline {
+  border-bottom: 2px solid #FFD700;
+  box-shadow: 0 2px 4px rgba(255, 215, 0, 0.3);
+}
+
+.gold-shadow {
+  box-shadow: 
+    0 4px 8px rgba(255, 215, 0, 0.2),
+    0 8px 16px rgba(255, 215, 0, 0.1);
+} 
